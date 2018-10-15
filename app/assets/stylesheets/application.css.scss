@@ -16,6 +16,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
  
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif;
@@ -33,6 +35,14 @@ background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, F
 
 .navbar {
  border:none;
+}
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a {
+ color:white;
+ &:hover{
+ color:white;
+ opacity:0.75;
+ }
 }
 
 .home-callout {
